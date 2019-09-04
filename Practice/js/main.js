@@ -5,7 +5,7 @@ $(document).ready(function () {
         close = $('.close-btn'),
         choose = $('.seat'),
         ticketNumber = $('.seat[data-seat]');
-        vipTicketNumber = $('.seat[data-seat-vip]');
+    vipTicketNumber = $('.seat[data-seat-vip]');
 
     choose.click(function () {
         $(this).toggleClass('active');
@@ -37,7 +37,6 @@ $(document).ready(function () {
             type: 'POST',
             data: {
                 "place": dataSeat,
-                dataSeatVip
             },
             contentType: 'application/json; charset=utf-8',
             dataType: 'json',

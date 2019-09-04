@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet/less" href="css/style.less">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/material-kit.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="screen-container">
+			<div class="screen"></div>
+			<p>Экран</p>
+		</div>
+		<div class="seats">
+			<div class="rows">
+				<div class="seat" data-seat="1">01</div>
+				<div class="seat" data-seat="2">02</div>
+				<div class="seat" data-seat="3">03</div>
+				<div class="seat" data-seat="4">04</div>
+				<div class="seat" data-seat="5">05</div>
+				<div class="seat" data-seat="6">06</div>
+				<div class="seat" data-seat="7">07</div>
+				<div class="seat" data-seat="8">08</div>
+				<div class="seat" data-seat="9">09</div>
+				<div class="seat" data-seat="10">10</div>
+			</div>
+			<div class="rows">
+				<div class="seat" data-seat="11">11</div>
+				<div class="seat" data-seat="12">12</div>
+				<div class="seat" data-seat="13">13</div>
+				<div class="seat" data-seat="14">14</div>
+				<div class="seat" data-seat="15">15</div>
+				<div class="seat" data-seat="16">16</div>
+				<div class="seat" data-seat="17">17</div>
+				<div class="seat" data-seat="18">18</div>
+				<div class="seat" data-seat="19">19</div>
+				<div class="seat" data-seat="20">20</div>
+			</div>
+			<div class="rows">
+				<div class="seat" data-seat="21">21</div>
+				<div class="seat" data-seat="22">22</div>
+				<div class="seat" data-seat="23">23</div>
+				<div class="seat" data-seat="24">24</div>
+				<div class="seat" data-seat="25">25</div>
+				<div class="seat" data-seat="26">26</div>
+				<div class="seat" data-seat="27">27</div>
+				<div class="seat" data-seat="28">28</div>
+				<div class="seat" data-seat="29">29</div>
+				<div class="seat" data-seat="30">30</div>
+			</div>
+			<div class="rows">
+				<div class="seat" data-seat="31">31</div>
+				<div class="seat" data-seat="32">32</div>
+				<div class="seat" data-seat="33">33</div>
+				<div class="seat" data-seat="34">34</div>
+				<div class="seat" data-seat="35">35</div>
+				<div class="seat" data-seat="36">36</div>
+				<div class="seat" data-seat="37">37</div>
+				<div class="seat" data-seat="38">38</div>
+				<div class="seat" data-seat="39">39</div>
+				<div class="seat" data-seat="40">40</div>
+			</div>
+			<div class="rows-vip">
+				<div class="seat" data-seat-vip="41 (VIP)">41</div>
+				<div class="seat" data-seat-vip="42 (VIP)">42</div>
+				<div class="seat" data-seat-vip="43 (VIP)">43</div>
+				<div class="seat" data-seat-vip="44 (VIP)">44</div>
+				<div class="seat" data-seat-vip="45 (VIP)">45</div>
+				<div class="seat" data-seat-vip="46 (VIP)">46</div>
+				<div class="seat" data-seat-vip="47 (VIP)">47</div>
+				<div class="seat" data-seat-vip="48 (VIP)">48</div>
+				<div class="seat" data-seat-vip="49 (VIP)">49</div>
+				<div class="seat" data-seat-vip="50 (VIP)">50</div>
+			</div>
+		</div>
+	</div>
+
+	<button class="next" data-popup="true">Далее</button>
+
+	<div class="overlay"></div>
+	<div class="popup text-center">
+		<div class="close-btn">&times;</div>
+		<h4>Вы выбрали билет №
+			<span class="ticket-number"></span>
+			<span class="ticket-number-vip"></span>
+		</h4>
+		<form action="#">
+			<button type="submit" class="btn btn-danger">Купить билет!</button>
+		</form>
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"
+		integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
